@@ -11,7 +11,14 @@ These instructions will get you a copy of the project up and running on your ser
 
 What things you need to install the software and how to install them
 
-	Web Server 	- PHP
+	Web Server 	- PHP/Apache web server
+
+### Running the app
+
+To run the application close the code set to your local mechine using the clone url https://github.com/lijoejohn/templateparser.git
+
+	open terminal on the cloned folder
+	open the application in browser
 
 ### Front End:
 * A modern JavaScript enabled browser is required to use CSV Parser.  We recommend a current version of Firefox or Chrome. 

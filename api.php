@@ -1,10 +1,12 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 /*!
  * template parser server for morningtrain
  * Copyright(c) 2018 Lijo E John
  * MIT Licensed
  */
-include 'class\api.php';
+include 'class/api.php';
 $apiObj = new Api();
 //check the api request method
 if(isset($_POST['method']) && $_POST['method']=='set_template')
